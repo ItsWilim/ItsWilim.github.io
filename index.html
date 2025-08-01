@@ -1,46 +1,77 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wilexis Mejía | Portafolio Profesional</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
-    header { background-color: #1a1a1a; color: white; padding: 40px 0; text-align: center; }
-    .container { padding: 20px; max-width: 900px; margin: auto; }
-    .project { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    a { color: #007acc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+  <meta name="description" content="Wilexis Mejía's professional portfolio. Full Stack Developer and IT Engineer specialized in modern software solutions." />
+  <meta name="author" content="Wilexis Mejía" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Wilexis Mejía | Full Stack Developer" />
+  <meta property="og:description" content="Discover my featured projects, skills and contact details." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://itswilim.github.io/assets/og-image.jpg" />
+  <meta property="og:url" content="https://itswilim.github.io" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Wilexis Mejía | Full Stack Developer</title>
 </head>
 <body>
 
-<header>
-  <h1>Wilexis Mejía</h1>
-  <p>Ingeniero en Infotecnología | Desarrollador Full Stack</p>
-</header>
+  <!-- Hero Section -->
+  <header>
+    <h1>Wilexis Mejía</h1>
+    <p>IT Engineer and Full Stack Developer focused on building scalable, elegant, and efficient software solutions.</p>
+    <a href="#projects" class="cta-button">Explore My Work</a>
+  </header>
 
-<div class="container">
-  <h2>Sobre mí</h2>
-  <p>Soy Wilexis Mejía, ingeniero especializado en el desarrollo de soluciones tecnológicas usando Java, Node.js, PHP, Visual Basic y SQL.</p>
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Wilexis Mejía, a software developer and IT engineer with experience in creating web and desktop applications using
+      modern technologies. My focus is on writing clean, efficient, and scalable code. I'm passionate about solving real-world problems
+      through well-engineered digital products.
+    </p>
+  </section>
 
-  <h2>Proyectos</h2>
-  <div class="project">
-    <h3>API de Gestión de Usuarios</h3>
-    <p>Backend en Node.js y Express con JWT y MongoDB.</p>
-    <a href="https://github.com/ItsWilim/api-users">Ver en GitHub</a>
-  </div>
+  <!-- Technical Skills -->
+  <section id="skills">
+    <h2>Technical Abilities</h2>
+    <div class="skills">
+      <div class="card"><h3>Java</h3><p>Backend development, desktop apps, Spring Boot.</p></div>
+      <div class="card"><h3>Node.js</h3><p>APIs with Express, RESTful services, JWT authentication.</p></div>
+      <div class="card"><h3>PHP</h3><p>Server-side scripting, Laravel basics, CRUD apps.</p></div>
+      <div class="card"><h3>SQL</h3><p>MySQL, PostgreSQL, database modeling and queries.</p></div>
+      <div class="card"><h3>Visual Basic</h3><p>Legacy desktop applications and UI automation.</p></div>
+      <div class="card"><h3>Git & GitHub</h3><p>Version control, collaboration, CI/CD basics.</p></div>
+    </div>
+  </section>
 
-  <div class="project">
-    <h3>Sistema de Inventario</h3>
-    <p>App de escritorio en Java + MySQL.</p>
-    <a href="https://github.com/ItsWilim/inventory-system">Ver en GitHub</a>
-  </div>
+  <!-- Featured Projects -->
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>User Management API</h3>
+        <p>A REST API built with Node.js and Express.js for user authentication and CRUD operations.</p>
+        <a href="https://github.com/ItsWilim/api-users" target="_blank">View Project →</a>
+      </div>
+      <div class="card">
+        <h3>Inventory System</h3>
+        <p>Java desktop application integrated with MySQL to manage products, stock, and sales.</p>
+        <a href="https://github.com/ItsWilim/inventory-system" target="_blank">View Project →</a>
+      </div>
+    </div>
+  </section>
 
-  <h2>Contacto</h2>
-  <p>Email: wilexis@example.com</p>
-  <p>GitHub: <a href="https://github.com/ItsWilim">github.com/ItsWilim</a></p>
-</div>
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>I'm open to collaborations, freelance work or full-time opportunities.</p>
+    <p>Email: <a href="mailto=your.email@example.com">your.email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/ItsWilim" target="_blank">github.com/ItsWilim</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/ItsWilim" target="_blank">linkedin.com/in/ItsWilim</a></p>
+  </section>
 
 </body>
 </html>
