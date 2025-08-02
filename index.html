@@ -73,5 +73,22 @@
     <p>LinkedIn: <a href="https://linkedin.com/in/ItsWilim" target="_blank">linkedin.com/in/ItsWilim</a></p>
   </section>
 
+  <!-- Scroll Blur Script -->
+  <script>
+    const style = document.createElement('style');
+    document.head.appendChild(style);
+
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY;
+      const blur = Math.min(y / 100, 5); // max 5px blur
+      const brightness = 1 - blur * 0.08; // lower brightness when scrolling
+
+      style.textContent = `
+        header::before {
+          filter: blur(${blur}px) brightness(${brightness});
+        }
+      `;
+    });
+  </script>
 </body>
 </html>
