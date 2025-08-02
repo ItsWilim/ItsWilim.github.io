@@ -8,7 +8,6 @@
   <meta name="robots" content="index, follow" />
   <meta property="og:title" content="Wilexis Mejía | Full Stack Developer" />
   <meta property="og:description" content="Discover my featured projects, skills and contact details." />
-  <meta property="og:type" content="website" />
   <meta property="og:image" content="https://itswilim.github.io/assets/og-image.jpg" />
   <meta property="og:url" content="https://itswilim.github.io" />
   <link rel="icon" href="favicon.ico" />
@@ -80,8 +79,8 @@
 
     window.addEventListener('scroll', () => {
       const y = window.scrollY;
-      const blur = Math.min(y / 100, 5); // max 5px blur
-      const brightness = 1 - blur * 0.08; // lower brightness when scrolling
+      const blur = Math.min(y / 100, 5); // máximo 5px
+      const brightness = 1 - blur * 0.08;
 
       style.textContent = `
         header::before {
